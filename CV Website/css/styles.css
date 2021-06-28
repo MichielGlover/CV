@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+hr{
+  border-style: dotted;
+  width: 5%;
+  border-width: 10px;
+  border-top: 0;
+  color: #EAF6F6;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.programmer {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.skill-row {
+  display: inline-block;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+}
+
+.code-img {
+  margin-right: 30px;
+  float: left;
+  width: 25%;
+}
+
+.pizza-img {
+  margin-left: 30px;
+  float: right;
+  width: 25%;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   font-family: Brush Script MT;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   color: white;
+   background-color: #11999E;
+   border: solid #11999E 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.copyright{
+  color: #EAF6F6;
+  padding-top: 25px;
+  font-weight: bold;
+}
